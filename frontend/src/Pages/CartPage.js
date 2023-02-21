@@ -8,6 +8,7 @@ import {addToCart, removeFromCart} from '../actions/cartActions';
 import { useNavigate } from "react-router-dom";
 
 const CartPage = () => {
+  
   const navigate = useNavigate();
   const {id} = useParams();
   const productId = id;
